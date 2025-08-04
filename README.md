@@ -25,7 +25,7 @@ To ensure quality and ecosystem growth, we prioritize the inclusion of projects 
 3. Fill in your project information (see Field Description below)
 4. Submit a Pull Request , we'll review and respond within 3–7 business days
  ## Example File Structure (projects/002.yml）
- ```yaml
+```yaml
 name: 'NovaHash Pool'
 category: 'CEX'
 description: 'NovaHash Pool description'
@@ -33,9 +33,9 @@ onlineTime: '2025-07-31'
 logo: 'https://demo.com/logo.png'
 website: 'https://www.demo.com'
 socialMedia:
- github: 'https://github.com/demo-org/demo-dapp'
- twitter: 'https://x.com/demo'
- youtube: 'https://www.youtube.com/@demo'
- discord: 'https://discord.gg/demo'
- telegram: 'https://t.me/demo_group'
- ```
+  github: 'https://github.com/demo-org/demo-dapp'
+  twitter: 'https://x.com/demo'
+  youtube: 'https://www.youtube.com/@demo'
+  discord: 'https://discord.gg/demo'
+  telegram: 'https://t.me/demo_group'
+```
