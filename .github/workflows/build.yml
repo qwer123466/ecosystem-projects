@@ -92,6 +92,9 @@ jobs:
           cp output/combined.json site/
           cp output/combined.yaml site/
           cp output/index.html site/
+          mkdir -p site/public
+          rm -rf public/.gitkeep
+          cp -r public/* site/public/
 
       - name: upload_pages
         uses: actions/upload-pages-artifact@v3
